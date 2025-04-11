@@ -1,0 +1,54 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Subject screen box */
+.screen.subject {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: white;
+  max-width: 350px;
+  width: 90%;
+}
+
+/* Heading */
+.screen.subject h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+/* Subject buttons */
+.screen.subject button {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.screen.subject button:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: translateY(-2px);
+}
+
+/* Optional: Hide class (if you want to toggle screens) */
+.hide {
+  display: none;
+}
