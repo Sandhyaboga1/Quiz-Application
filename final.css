@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fce4ec;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .screen {
+    background: white;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #d81b60;
+  }
+  
+  #final-score {
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: #6a1b9a;
+    font-weight: bold;
+  }
+  
+  #restart-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #d81b60;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #restart-btn:hover {
+    background-color: #c2185b;
+  }
+  
