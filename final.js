@@ -9,5 +9,5 @@ const total = queryParams.get("total") || 0;
 finalScore.textContent = `Your Score: ${score} / ${total}`;
 
 restartBtn.addEventListener("click", () => {
-  window.location.href = "quiz.html";
+  window.location.href = "subject.html";
 });
