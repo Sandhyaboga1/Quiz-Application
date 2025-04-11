@@ -1,0 +1,94 @@
+/* quiz.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acbbe5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .screen {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .quiz-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  #question-text {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .options-container button {
+    background: #e7e7e7;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .options-container button:hover {
+    background: #d4e4ff;
+  }
+  
+  .options-container button.correct {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .options-container button.wrong {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  #live-score-msg {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    color: green;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .next-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .next-btn:hover {
+    background-color: #0056b3;
+  }
+  
