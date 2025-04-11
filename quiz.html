@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Time</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+  <div class="screen" id="quiz-screen">
+    <div class="quiz-header">
+      <div id="question-number">Question 1</div>
+      <div id="timer">Time Left: <span id="time-left">15</span>s</div>
+    </div>
+    <h2 id="question-text">Loading question...</h2>
+    <div id="options-container" class="options-container"></div>
+
+    <div id="live-score-msg" class="live-score hide"></div>
+    <button id="next-button" class="next-btn hide">Next</button>
+    
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
